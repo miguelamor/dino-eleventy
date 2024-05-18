@@ -1,0 +1,14 @@
+---
+layout: layout-pages.njk
+title: Página de Blog
+description: Esta es la página de los blogs
+---
+
+<h1>{{title}}</h1>
+
+<h2>Artículos del Blog</h2>
+<ul>
+  {% for post in collections.blog  | sort(false, false, "data.title") %}
+  <li><a href="{{post.url}}">{{post.data.title}}</a></li>
+  {% endfor %}
+</ul>

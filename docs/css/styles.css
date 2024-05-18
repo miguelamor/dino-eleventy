@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header-icon {
+  width: 64px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu .list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.menu .list-item {
+  display: inline-block;
+  font-size: 1.25rem;
+  margin: 0.5rem;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: #222;
+}
+
+.list-item a:hover {
+  text-decoration: underline;
+  color: #000;
+  font-weight: bold;
+}

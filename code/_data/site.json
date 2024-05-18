@@ -1,0 +1,15 @@
+{
+  "title": "Dinoland",
+  "desc": "Página de dinosaurios",
+  "dinos": [{ "name": "T-rex" }, { "name": "Triceratops" }],
+  "dinoLinks": [
+    {
+      "text": "Google",
+      "url": "http://www.google.es"
+    },
+    {
+      "text": "Sede del concello de Vigo",
+      "url": "https://sede.vigo.org"
+    }
+  ]
+}
